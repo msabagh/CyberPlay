@@ -11,7 +11,11 @@ import SwiftUI
 struct CyberPlayApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FlowController()
         }
     }
+}
+
+#Preview {
+    FlowController()
 }
